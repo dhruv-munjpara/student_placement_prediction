@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 10000
 
-CMD ["uvicorn", "app:app1", "--host", "0.0.0.0", "--port", "10000"]
+CMD ["uvicorn", "app:placement_api", "--host", "0.0.0.0", "--port", "10000"]
